@@ -1,0 +1,146 @@
+body {
+    background-color: #181818;
+    font-family: 'Arimo';
+    color: #F3F6F9;
+}
+.wrapper {
+    margin: auto;
+    width: 930px;
+}
+.tag_str{
+    display: flex;
+}
+.tag {
+    margin-top: 80px;
+    margin-left: 73px;
+    padding: 10px;
+    width: auto;
+    border-radius: 15px;
+    background-color: #6532F8;
+    line-height: 10px;
+    font-size: 10px;
+    font-weight: 400;
+    text-align: center;
+    box-sizing: border-box;
+}
+.tag:last-child {
+    margin-left: 5px;
+}
+h2 {
+    margin-top: 20px;
+    margin-left: 73px;
+    line-height: 88px;
+    font-size: 88px;
+    font-weight: 400;
+}
+.listOfFilms {
+    margin-top: 45px;
+    box-sizing: border-box;
+    padding: 70px;
+    width: 930px;
+    height: 500px;
+    background-color: #232323;
+    border-radius: 20px;
+}
+.inputArea {
+    display: flex;
+    gap: 20px;
+}
+.input_css {
+    width: 400px;
+    height: 62px;
+    box-sizing: border-box;
+    background-color: #232323;
+    border: none;
+    box-shadow: 0px 1px 0px 0px gray;
+    color: #F3F6F9;
+    font-size: 21px;
+    opacity: 50%;
+
+}
+.input_css::placeholder {
+    color: #F3F6F9;
+    font-size: 21px;
+    opacity: 50%;
+}
+.inputBtn_css {
+    width: 62px;
+    height: 62px;
+    border: 1px solid #6532F8;
+    box-sizing: border-box;
+    background-color: #6532F8;
+    border-radius: 31px;
+    background-image: url('Vector.png');
+    background-size: 30px;
+    background-repeat: no-repeat;
+    background-position: 50%;
+}
+ol, ul {
+    list-style: none;
+}
+.list_string {
+    margin-bottom: 3px;
+    padding-left: 20px;
+    width: 790px;
+    height: 71px;
+    border: none;
+    box-sizing: border-box;
+    border-radius: 10px;
+    background-color: #3A3939;
+    position: relative;
+}
+.list_string:last-child {
+    padding-left: 20px;
+    width: 790px;
+    height: 71px;
+    border: none;
+    box-sizing: border-box;
+    border-radius: 10px;
+    background-color: #3A3939;
+    position: relative;
+}
+.string {
+    color: #F3F6F9;
+    font-size: 16px;
+    line-height: 16px;
+    font-weight: 400;
+}
+.string::before {
+    margin-top: 27px;
+    margin-right: 20px;
+    content: '';
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+    background-image: url('Rectangle\ 814.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+}
+.delete_btn {
+    width: 23px;
+    height: 23px;
+    position: absolute;
+    right: 24px;
+    bottom: 24px;
+}
+.user_list {
+    margin-top: 40px;
+    width: 810px;
+    height: 292px;
+    overflow: hidden;
+    overflow-y: scroll;
+    white-space: nowrap;
+}
+.user_list::-webkit-scrollbar {
+    width: 10px;
+}
+  
+.user_list::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background-color: #6532F8;
+}
+.user_list::-webkit-scrollbar-track {
+    border-radius: 10px;
+    background-color: #232323;
+}
